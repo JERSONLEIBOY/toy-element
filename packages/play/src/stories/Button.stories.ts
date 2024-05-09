@@ -7,10 +7,10 @@ import { ErButton } from "toy-element";
 type Story = StoryObj<typeof ErButton> & { argTypes?: ArgTypes };
 
 const meta: Meta<typeof ErButton> = {
-  // title: "Example/Button",
-  // component: ErButton,
+  title: "Example/Button",
+  component: ErButton,
   // subcomponents: { ButtonGroup: ErButtonGroup },
-  // tags: ["autodocs"],
+  tags: ["autodocs"],
   argTypes: {
     type: {
       control: { type: "select" },
