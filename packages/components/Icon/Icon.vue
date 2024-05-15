@@ -7,7 +7,7 @@
     :style="customStyles"
     v-bind="$attrs"
   >
-    <FontAwesomeIcon v-bind="filterProps"></FontAwesomeIcon>
+    <font-awesome-icon v-bind="filterProps" />
   </i>
 </template>
 
