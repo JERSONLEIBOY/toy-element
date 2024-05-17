@@ -10,7 +10,7 @@ import "@toy-element/theme/index.css"
 library.add(fas);
 const installer = makeInstaller(components);
 
-export * from "@toy-element/components";
+export * from "../components";
 
 export default installer;
 
