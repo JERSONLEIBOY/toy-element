@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import ToElement from "toy-element";
-import "toy-element/dist/index.css";
+import EuiElement from "eui-element";
+import "eui-element/dist/index.css";
 
-createApp(App).use(ToElement).mount('#app')
+createApp(App).use(EuiElement).mount('#app')

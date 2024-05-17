@@ -1,6 +1,6 @@
 import Icon from "./Icon.vue";
 
-import { withInstall } from "@toy-element/utils";
+import { withInstall } from "@eui-element/utils";
 
 export const ErIcon = withInstall(Icon);
 

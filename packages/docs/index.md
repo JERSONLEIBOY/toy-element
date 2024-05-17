@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Toy-Element"
+  name: "Eui-Element"
   text: "高仿Element"
   tagline: My great project tagline
   actions:

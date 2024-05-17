@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Toy-Element",
+  title: "Eui-Element",
   description: "高仿Element",
-  base: "/toy-element/",
+  base: "/eui-element/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

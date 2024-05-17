@@ -11,7 +11,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "./index.ts"),
       name: "ToyElement",
-      fileName: "toy-element",
+      fileName: "eui-element",
       formats: ["umd"]
     },
     rollupOptions: {
