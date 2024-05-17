@@ -1,5 +1,5 @@
 {
-  "name": "eui-element",
+  "name": "eui-ele",
   "version": "1.0.0",
   "description": "Components library by Vue3 + Ts",
   "type": "module",
@@ -9,13 +9,13 @@
   "sideEffects": [
     "./dist/index.css"
   ],
-  "main": "./dist/umd/eui-element.umd.cjs",
-  "module": "./dist/es/eui-element.js",
+  "main": "./dist/umd/eui-ele.umd.cjs",
+  "module": "./dist/es/eui-ele.js",
   "types": "./dist/types/core/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/es/eui-element.js",
-      "require": "./dist/umd/eui-element.umd.cjs",
+      "import": "./dist/es/eui-ele.js",
+      "require": "./dist/umd/eui-ele.umd.cjs",
       "types": "./dist/types/core/index.d.ts"
     },
     "./dist/": {
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "vite-plugin-dts": "^3.9.1",
-    "@eui-element/components": "workspace:*"
+    "@eui-ele/components": "workspace:*"
   },
   "peerDependencies": {
     "vue": "^3.4.19"

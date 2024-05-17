@@ -1,4 +1,4 @@
-import { ErButton, ErIcon } from "@eui-element/components";
+import { ErButton, ErIcon } from "@eui-ele/components";
 
 import type { Plugin } from "vue";
 

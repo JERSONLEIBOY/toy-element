@@ -8,19 +8,19 @@ importers:
 
   .:
     dependencies:
-      '@eui-element/hooks':
+      '@eui-ele/hooks':
         specifier: workspace:*
         version: link:packages/hooks
-      '@eui-element/theme':
+      '@eui-ele/theme':
         specifier: workspace:*
         version: link:packages/theme
-      '@eui-element/utils':
+      '@eui-ele/utils':
         specifier: workspace:*
         version: link:packages/utils
       lodash-es:
         specifier: ^4.17.21
         version: 4.17.21
-      eui-element:
+      eui-ele:
         specifier: workspace:*
         version: link:packages/core
       vue:
@@ -130,7 +130,7 @@ importers:
         specifier: ^3.4.19
         version: 3.4.25(typescript@5.4.5)
     devDependencies:
-      '@eui-element/components':
+      '@eui-ele/components':
         specifier: workspace:*
         version: link:../components
       vite-plugin-dts:

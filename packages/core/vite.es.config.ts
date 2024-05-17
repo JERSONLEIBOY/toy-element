@@ -39,7 +39,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "./index.ts"),
       name: "ToyElement",
-      fileName: "eui-element",
+      fileName: "eui-ele",
       formats: ["es"]
     },
     rollupOptions: {

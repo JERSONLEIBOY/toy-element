@@ -10,8 +10,8 @@ export default defineConfig({
     outDir: "dist/umd",
     lib: {
       entry: resolve(__dirname, "./index.ts"),
-      name: "ToyElement",
-      fileName: "eui-element",
+      name: "EuiEle",
+      fileName: "eui-ele",
       formats: ["umd"]
     },
     rollupOptions: {
